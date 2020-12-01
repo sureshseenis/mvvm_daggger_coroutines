@@ -27,7 +27,11 @@ class WelcomeActivity : AppCompatActivity() {
         viewModel.getCountriesFromApi()
 
         viewModel.restCountries.observe(this, Observer {
-            welcomeBinding.rvListCountries.adapter = CountriesListAdapter(this, it)
+            //Apply function just configure the recyclerview
+            welcomeBinding.rvListCountries.apply {
+               this.adapter = CountriesListAdapter(context, it)
+            }
+
         })
 
 

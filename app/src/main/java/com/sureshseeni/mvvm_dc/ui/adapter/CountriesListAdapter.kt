@@ -1,6 +1,7 @@
 package com.sureshseeni.mvvm_dc.ui.adapter
 
 import android.app.Activity
+import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -10,7 +11,7 @@ import com.sureshseeni.mvvm_dc.network.model.RestCountries
 import kotlinx.android.synthetic.main.row_country_listing_item.view.*
 
 
-class CountriesListAdapter(val ctx: Activity, private val list: List<RestCountries.RestCountriesItem>) :
+class CountriesListAdapter(val ctx: Context, private val list: List<RestCountries.RestCountriesItem>) :
     RecyclerView.Adapter<CountriesListAdapter.WelcomeActivityActivityViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): WelcomeActivityActivityViewHolder {
