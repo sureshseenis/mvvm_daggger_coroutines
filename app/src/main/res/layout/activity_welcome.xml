@@ -7,14 +7,14 @@
 
         <variable
             name="welcomeViewModel"
-            type="com.sureshseeni.mvvm_dc.ui.welcome.WelcomeActivityViewModel" />
+            type="com.sureshseeni.mvvm_dc.ui.activities.welcome.WelcomeActivityViewModel" />
 
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".ui.welcome.WelcomeActivity">
+        tools:context=".ui.activities.welcome.WelcomeActivity">
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/rv_list_countries"

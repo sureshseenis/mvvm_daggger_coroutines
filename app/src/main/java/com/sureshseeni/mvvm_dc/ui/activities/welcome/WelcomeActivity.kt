@@ -1,14 +1,13 @@
-package com.sureshseeni.mvvm_dc.ui.welcome
+package com.sureshseeni.mvvm_dc.ui.activities.welcome
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import androidx.recyclerview.widget.StaggeredGridLayoutManager
 import com.sureshseeni.mvvm_dc.R
 import com.sureshseeni.mvvm_dc.databinding.ActivityWelcomeBinding
-import com.sureshseeni.mvvm_dc.network.factory.ViewModelFactory
+import com.sureshseeni.mvvm_dc.factory.ViewModelFactory
 import com.sureshseeni.mvvm_dc.ui.adapter.CountriesListAdapter
 
 class WelcomeActivity : AppCompatActivity() {

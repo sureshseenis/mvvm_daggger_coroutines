@@ -1,4 +1,4 @@
-package com.sureshseeni.mvvm_dc.ui.welcome
+package com.sureshseeni.mvvm_dc.ui.activities.welcome
 
 import android.util.Log
 import androidx.lifecycle.MutableLiveData

@@ -1,10 +1,10 @@
-package com.sureshseeni.mvvm_dc.network.factory
+package com.sureshseeni.mvvm_dc.factory
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import com.sureshseeni.mvvm_dc.network.ApiServices
 import com.sureshseeni.mvvm_dc.network.di.component.DaggerNetworkComponent
-import com.sureshseeni.mvvm_dc.ui.welcome.WelcomeActivityViewModel
+import com.sureshseeni.mvvm_dc.ui.activities.welcome.WelcomeActivityViewModel
 import kotlinx.coroutines.Dispatchers
 import retrofit2.Retrofit
 import javax.inject.Inject

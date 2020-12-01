@@ -13,7 +13,7 @@
         android:theme="@style/Theme.Mvvm_daggger_coroutines">
         <activity
             android:theme="@style/Theme.AppCompat.NoActionBar"
-            android:name="com.sureshseeni.mvvm_dc.ui.welcome.WelcomeActivity">
+            android:name="com.sureshseeni.mvvm_dc.ui.activities.welcome.WelcomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

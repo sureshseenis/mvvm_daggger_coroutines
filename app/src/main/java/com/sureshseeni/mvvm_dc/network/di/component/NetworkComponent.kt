@@ -1,7 +1,7 @@
 package com.sureshseeni.mvvm_dc.network.di.component
 
 import com.sureshseeni.mvvm_dc.network.di.module.NetworkModule
-import com.sureshseeni.mvvm_dc.network.factory.ViewModelFactory
+import com.sureshseeni.mvvm_dc.factory.ViewModelFactory
 import dagger.Component
 import javax.inject.Singleton
 
