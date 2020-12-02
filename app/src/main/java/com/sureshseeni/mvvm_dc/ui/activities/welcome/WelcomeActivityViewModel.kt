@@ -11,8 +11,8 @@ import kotlinx.coroutines.launch
 import java.lang.Exception
 
 class WelcomeActivityViewModel(
-    val dispatcher: MainCoroutineDispatcher,
-    val apiService: ApiServices
+   private val dispatcher: MainCoroutineDispatcher,
+   private val apiService: ApiServices
 ) : ViewModel() {
 
    var restCountries = MutableLiveData<List<RestCountries.RestCountriesItem>>()

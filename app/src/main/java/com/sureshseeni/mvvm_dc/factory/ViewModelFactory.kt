@@ -26,7 +26,6 @@ class ViewModelFactory : ViewModelProvider.Factory {
             return WelcomeActivityViewModel(Dispatchers.Main,apiService) as T
         }
 
-
         throw IllegalArgumentException("Unknown ViewModel class")
     }
 }
